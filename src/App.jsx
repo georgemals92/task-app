@@ -8,7 +8,15 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="p-10">
+      <h1 className="text-4xl font-bold text-blue-500 mb-4">
+        Hello Tailwind!
+      </h1>
+      <div className="bg-blue-500 text-white p-6 rounded-lg">
+        Tailwind is working!
+      </div>
+    </div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +35,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
